@@ -2,12 +2,17 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
-//Adding a function to Increment
+// Adding a fubnction to incrememt
 function increment() {
     count += 1
     countEl.textContent = count
 }
-//Ading a function to save
+//Adding a function to Decrement 
+function decrement() {
+   count = count-1;
+   countEl.textContext = count
+}
+//Adding a function to save
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
