@@ -5,8 +5,6 @@ margin: 0px;
 box-sizing: border-box;
 }
 
-
-
 body {
     background-image: url("ice_cream.jpg");
     background-size: cover;
@@ -51,5 +49,9 @@ button {
 
 #save-btn {
     background: black;
+}
+#time {
+    font-size: 3rem;
+    font-family: monospace;
 }
 

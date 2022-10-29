@@ -1,5 +1,5 @@
 //Declaring a variable saveEl,countEl and count
-let saveEl = document.getElementById("save-el")
+let saveEl = document.getElementById("save-el"),
 let countEl = document.getElementById("count-el")
 let count = 0
 // Adding a fubnction to incrememt
@@ -9,7 +9,7 @@ function increment() {
 }
 //Adding a function to Decrement 
 function decrement() {
-   count = count-1;
+   count -=1;
    countEl.textContext = count
 }
 //Adding a function to save
@@ -19,3 +19,4 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+//adding a time function
