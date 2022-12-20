@@ -1,0 +1,24 @@
+{
+  "name": "the-ice_cream_station",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Backend Engineering",
+  "main": "index.html",
+  "scripts": {
+     "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abiodun001-world/The-Ice_Cream_Station.git"
+  },
+  "author": "Adekunle Abiodun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abiodun001-world/The-Ice_Cream_Station/issues"
+  },
+  "homepage": "https://github.com/Abiodun001-world/The-Ice_Cream_Station#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
